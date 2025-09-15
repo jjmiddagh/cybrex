@@ -3,6 +3,7 @@
 This repository contains the source code and assets for **Cybrex** – a modern, luxury‑inspired technology company that offers **CertifAI**, a Retrieval‑Augmented Generation (RAG) verification tool. The site is fully static and does not require a backend to run.
 
 ## Structure
+test
 
 ```
 website/

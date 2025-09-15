@@ -521,4 +521,64 @@ a {
   }
 }
 
+/* Services Summary (Home Page) */
+.services-summary {
+  padding: 4rem 0;
+  text-align: center;
+}
+.services-summary h2 {
+  margin-bottom: 1rem;
+  color: var(--color-light);
+}
+.services-summary p {
+  margin: 0 auto 1.5rem auto;
+  max-width: 700px;
+  color: var(--color-muted);
+}
+
+/* Services Page Styles */
+.service-hero {
+  background-color: var(--color-dark-alt);
+  padding: 6rem 0;
+  text-align: center;
+}
+.service-hero h1 {
+  margin-bottom: 0.5rem;
+}
+.service-hero .subtitle {
+  color: var(--color-muted);
+  font-size: 1.125rem;
+}
+.services-detail {
+  padding: 4rem 0;
+}
+.services-detail h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.services-detail p {
+  color: var(--color-muted);
+  margin-bottom: 1.5rem;
+}
+.service-list {
+  list-style: none;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+.service-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-muted);
+}
+.service-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+}
 

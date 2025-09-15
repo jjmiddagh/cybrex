@@ -1,126 +1,106 @@
+<!-- services.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Expert Witness Services | Cybrex</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expert Witness Services | Cybrex</title>
+  <!-- Preconnects for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Importing the elegant serif and sans‑serif fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container flex between center">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container flex between center">
+      <a href="index.html" class="logo">
+        <img src="assets/images/cybrex_emblem_gradient.png" alt="Cybrex logo icon" class="logo-icon" />
+        <span class="logo-text">Cybrex</span>
+      </a>
+      <nav class="main-nav" id="navbar">
+        <ul class="nav-list flex between center">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">CertifAI</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="service-hero dark-bg">
+      <div class="container hero-center">
+        <h1>Expert Witness Services</h1>
+        <p class="subtitle">Trusted cybersecurity expertise for legal matters</p>
+      </div>
+    </section>
+
+    <section class="services-detail">
+      <div class="container">
+        <h2>Meet Our Expert</h2>
+        <p>
+          Our founder and principal consultant, K, is a certified cybersecurity
+          assessment specialist with multiple industry credentials. Having been called upon
+          as an expert witness in high‑profile legal cases, K brings an unparalleled depth
+          of technical knowledge and clear communication to the courtroom.
+        </p>
+        <h2>How We Help</h2>
+        <p>
+          Cybrex offers expert witness services to attorneys, corporations and courts seeking
+          authoritative insights into cybersecurity incidents, compliance, digital forensics
+          and standards of care. We prepare detailed reports, assist in discovery, and testify
+          with clarity and credibility.
+        </p>
+        <h2>Why Choose Cybrex?</h2>
+        <ul class="service-list">
+          <li>Unmatched expertise in cybersecurity assessments and governance.</li>
+          <li>Proven track record as an expert witness in legal proceedings.</li>
+          <li>Clear explanations of complex technical issues for legal audiences.</li>
+          <li>Commitment to unbiased, ethical and professional testimony.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-content">
+        <h2>Need a Cybersecurity Expert Witness?</h2>
+        <p>Contact us to discuss your case and learn how Cybrex can support your legal team.</p>
+        <a href="contact.html" class="btn btn-primary">Request a Consultation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container flex between start footer-content">
+      <div class="footer-brand">
         <a href="index.html" class="logo flex center">
-          <img
-            src="assets/images/cybrex_emblem_gold.png"
-            alt="Cybrex logo icon"
-            class="logo-icon"
-          />
+          <img src="assets/images/cybrex_emblem_gold.png" alt="Cybrex logo icon" class="logo-icon" />
           <span class="logo-text">Cybrex</span>
         </a>
-        <nav class="main-nav" id="navbar">
-          <ul class="nav-list flex between center">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="product.html">CertifAI</a></li>
-            <li><a href="services.html" class="active">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
-          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-        </button>
+        <p class="footer-tagline">Illuminating Trust in AI</p>
       </div>
-    </header>
-
-    <main>
-      <!-- Hero Section for Services -->
-      <section class="service-hero dark-bg">
-        <div class="container hero-center">
-          <h1>Expert Witness Services</h1>
-          <p class="subtitle">Trusted cybersecurity expertise for legal matters</p>
-        </div>
-      </section>
-
-      <!-- Service Details -->
-      <section class="services-detail">
-        <div class="container">
-          <h2>Meet Our Expert</h2>
-          <p>
-            Our founder and principal consultant, K, is a certified
-            cybersecurity assessment specialist with multiple industry
-            credentials. Having been called upon as an expert witness in
-            high‑profile legal cases, K brings an unparalleled depth of
-            technical knowledge and clear communication to the courtroom.
-          </p>
-          <h2>How We Help</h2>
-          <p>
-            Cybrex offers expert witness services to attorneys, corporations
-            and courts seeking authoritative insights into cybersecurity
-            incidents, compliance, digital forensics and standards of care. We
-            prepare detailed reports, assist in discovery, and testify with
-            clarity and credibility to help judges and juries understand
-            complex technical issues.
-          </p>
-          <h2>Why Choose Cybrex?</h2>
-          <ul class="service-list">
-            <li>Unmatched expertise in cybersecurity assessments and governance.</li>
-            <li>Proven track record as an expert witness in legal proceedings.</li>
-            <li>Clear, concise explanations of technical issues for legal audiences.</li>
-            <li>Commitment to unbiased, ethical and professional testimony.</li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Call to Action for Services -->
-      <section class="cta-section">
-        <div class="container cta-content">
-          <h2>Need a Cybersecurity Expert Witness?</h2>
-          <p>
-            Contact us to discuss your case and learn how Cybrex can
-            support your legal team with expert testimony and technical
-            analysis.
-          </p>
-          <a href="contact.html" class="btn btn-primary">Request a Consultation</a>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-      <div class="container flex between start footer-content">
-        <div class="footer-brand">
-          <a href="index.html" class="logo flex center">
-            <img
-              src="assets/images/cybrex_emblem_gold.png"
-              alt="Cybrex logo icon"
-              class="logo-icon"
-            />
-            <span class="logo-text">Cybrex</span>
-          </a>
-          <p class="footer-tagline">Illuminating Trust in AI</p>
-        </div>
-        <nav class="footer-nav">
-          <ul class="footer-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="product.html">CertifAI</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="footer-legal">
-          <p>&copy; <span id="year"></span> Cybrex Technologies. All rights reserved.</p>
-        </div>
+      <nav class="footer-nav">
+        <ul class="footer-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">CertifAI</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-legal">
+        <p>&copy; <span id="year"></span> Cybrex Technologies. All rights reserved.</p>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="assets/js/script.js"></script>
-  </body>
+  <script src="assets/js/script.js"></script>
+</body>
 </html>

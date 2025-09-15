@@ -3,7 +3,8 @@
 This repository contains the source code and assets for **Cybrex** – a modern, luxury‑inspired technology company that offers **CertifAI**, a Retrieval‑Augmented Generation (RAG) verification tool. The site is fully static and does not require a backend to run.
 
 ## Structure
-test
+
+test again
 
 ```
 website/
@@ -59,8 +60,8 @@ If you would like to use a custom domain (e.g. `certifai.io`), configure a DNS `
 
 ## Notes
 
-* The contact form uses a `mailto:` action to open the user’s email client. In production, you may integrate with a service like Formspree, Getform or Netlify Forms to handle submissions.
-* All fonts are served via Google Fonts. An internet connection is required to load them; you can self‑host the fonts by downloading them and linking locally if desired.
-* The logo symbol (`Cybrex_symbol.png`) and hero background (`hero_bg_cropped.png`) are included in the `assets/images` folder. Replace these with your own artwork to customize the brand.
+- The contact form uses a `mailto:` action to open the user’s email client. In production, you may integrate with a service like Formspree, Getform or Netlify Forms to handle submissions.
+- All fonts are served via Google Fonts. An internet connection is required to load them; you can self‑host the fonts by downloading them and linking locally if desired.
+- The logo symbol (`Cybrex_symbol.png`) and hero background (`hero_bg_cropped.png`) are included in the `assets/images` folder. Replace these with your own artwork to customize the brand.
 
 Enjoy building with Cybrex!

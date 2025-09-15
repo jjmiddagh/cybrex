@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Cybrex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container flex between center">
+        <a href="index.html" class="logo flex start center">
+          <img src="assets/images/cybrex_emblem_gradient.png" alt="Cybrex logo icon" class="logo-icon" />
+          <span class="logo-text">Cybrex</span>
+        </a>
+        <nav class="main-nav" id="navbar">
+          <ul class="nav-list flex between center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">CertifAI</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="contact-hero dark-bg">
+        <div class="container hero-center">
+          <h1>Get in Touch</h1>
+          <p class="subtitle">We’d love to hear about your AI journey</p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section">
+        <div class="container contact-grid">
+          <div class="contact-details">
+            <h2>Contact Information</h2>
+            <p>
+              Reach out to us with questions about CertifAI, AI governance or
+              partnership opportunities.
+            </p>
+            <ul class="contact-info">
+              <li><strong>Email:</strong> <a href="mailto:info@cybrex.ai">info@cybrex.ai</a></li>
+              <li><strong>Phone:</strong> +1 (800) 555‑0123</li>
+              <li><strong>Headquarters:</strong> 100 Innovation Way, Suite 300, Phoenix, AZ 85001</li>
+            </ul>
+            <p class="note">
+              We operate globally and are headquartered in Scottsdale, Arizona (America/Phoenix). Please leave us a message and we'll respond within one business day.
+            </p>
+          </div>
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="mailto:info@cybrex.ai" method="post" enctype="text/plain" class="form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section">
+        <div class="container cta-content">
+          <h2>Stay informed about ethical AI</h2>
+          <p>
+            Subscribe to receive updates on AI governance, compliance trends and
+            product announcements.
+          </p>
+          <a href="mailto:info@cybrex.ai?subject=Newsletter%20Subscription" class="btn btn-secondary">Subscribe</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container flex between start footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="logo flex start center">
+            <img src="assets/images/cybrex_emblem_gradient.png" alt="Cybrex logo icon" class="logo-icon" />
+            <span class="logo-text">Cybrex</span>
+          </a>
+          <p class="footer-tagline">Illuminating Trust in AI</p>
+        </div>
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">CertifAI</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-legal">
+          <p>&copy; <span id="year"></span> Cybrex Technologies. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

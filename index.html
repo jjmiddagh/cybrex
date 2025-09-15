@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- Preconnects for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Importing the elegant serif and sans‑serif fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container flex between center">
+        <a href="index.html" class="logo flex start center">
+          <img
+            src="assets/images/cybrex_emblem_gradient.png"
+            alt="Cybrex logo icon"
+            class="logo-icon"
+          />
+         <span class="logo-text">Cybrex</span>
+        </a>
+        <nav class="main-nav" id="navbar">
+          <ul class="nav-list flex between center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">CertifAI</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" style="background-image: url('assets/images/hero_bg_cropped.png');">
+        <div class="container hero-content">
+          <h1 class="hero-title">Trustworthy AI, Certified.</h1>
+          <p class="hero-subtitle">
+            CertifAI empowers your organization to validate that generative models are
+            compliant, ethical, explainable, reliable and effective.
+          </p>
+          <a href="product.html" class="btn btn-primary">Discover CertifAI</a>
+        </div>
+      </section>
+
+      <!-- Intro Section -->
+      <section class="intro-section">
+        <div class="container intro-content">
+          <h2>Elevating Trust in AI</h2>
+          <p>
+            At Cybrex, we believe that artificial intelligence should be as
+            dependable as it is innovative. Our mission is to illuminate
+            trustworthy AI by delivering solutions like CertifAI – our
+            verification platform that ensures your Retrieval‑Augmented Generation
+            (RAG) models adhere to the highest standards of governance. RAG
+            frameworks enhance large language models by integrating external
+            knowledge sources, making responses more accurate and contextually
+            relevant. When combined with robust governance practices focused on
+            fairness, transparency, data privacy and compliance, RAG systems can
+            deliver accurate, unbiased and auditable results.
+          </p>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features-section">
+        <div class="container">
+          <h2 class="section-title">Why CertifAI?</h2>
+          <div class="features-grid">
+            <!-- Feature Item -->
+            <div class="feature-item">
+              <div class="feature-icon">
+                <!-- Shield icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-shield"
+                >
+                  <path
+                    d="M12 2l7 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V6l7-4z"
+                  ></path>
+                </svg>
+              </div>
+              <h3>Compliance &amp; Governance</h3>
+              <p>
+                CertifAI validates that your AI models comply with
+                ever‑evolving regulations and ethical guidelines. By applying
+                robust governance practices, it promotes transparency, fairness
+                and accountability.
+              </p>
+            </div>
+            <!-- Feature Item -->
+            <div class="feature-item">
+              <div class="feature-icon">
+                <!-- Eye icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-eye"
+                >
+                  <path
+                    d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                  ></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </div>
+              <h3>Explainability &amp; Transparency</h3>
+              <p>
+                Our platform creates audit trails and source citations for every
+                model output, turning AI from a black box into an accountable
+                decision engine.
+              </p>
+            </div>
+            <!-- Feature Item -->
+            <div class="feature-item">
+              <div class="feature-icon">
+                <!-- Check icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-check-circle"
+                >
+                  <path
+                    d="M12 22c5.52 0 10-4.48 10-10S17.52 2 12 2 2 6.48 2 12s4.48 10 10 10z"
+                  ></path>
+                  <path d="M9 12l2 2 4-4"></path>
+                </svg>
+              </div>
+              <h3>Reliability &amp; Consistency</h3>
+              <p>
+                With RAG‑powered retrieval and continuous monitoring, CertifAI
+                mitigates hallucinations and ensures reliable outputs by
+                grounding every response in authoritative data.
+              </p>
+            </div>
+            <!-- Feature Item -->
+            <div class="feature-item">
+              <div class="feature-icon">
+                <!-- Heart icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-heart"
+                >
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                  ></path>
+                </svg>
+              </div>
+              <h3>Ethics &amp; Fairness</h3>
+              <p>
+                We prioritize fairness and bias mitigation by restricting
+                retrieval to curated, role‑specific datasets and continuously
+                auditing for bias. This helps you maintain equitable outcomes
+                across all stakeholders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="cta-section">
+        <div class="container cta-content">
+          <h2>Ready to trust your AI?</h2>
+          <p>
+            Implement CertifAI today and demonstrate your commitment to ethical
+            and trustworthy AI. Contact us to schedule a demo and discover how
+            our platform can integrate seamlessly into your workflow.
+          </p>
+          <a href="contact.html" class="btn btn-secondary">Get Started</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container flex between start footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="logo flex start center">
+            <img
+              src="assets/images/cybrex_emblem_gradient.png"
+              alt="cybrex logo icon"
+              class="logo-icon"
+            />
+            <span class="logo-text">Cybrex</span>
+          </a>
+          <p class="footer-tagline">Illuminating Trust in AI</p>
+        </div>
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">CertifAI</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-legal">
+          <p>&copy; <span id="year"></span> Cybrex Technologies. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
